@@ -1,0 +1,69 @@
+*{
+    padding: 0;
+    margin: 0;
+    font-family: sans-serif;
+}
+body{
+    background-color: rgb(214, 218, 222);
+    height: 100vh;
+}
+.container{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    height: 100%;
+}
+.title-block{
+    max-width: 450px;
+    margin: 30px;
+}
+.title{
+    color: blue;
+    font-size: 60px;
+}
+.desc{
+    font-size: 25px;
+}
+.login-box{
+    margin: 30px;
+    display: flex;
+    flex-direction: column;
+    background-color: white;
+    padding: 20px;
+    border-radius: 5px;
+    align-items: center;
+    box-shadow: 10px 10px 10px rgba(0, 0, 0, 0.098);
+}
+input{
+    margin: 5px;
+    padding:10px;
+    color: rgba(0, 0, 0, 0.147);
+    border-radius: 5px;
+    border: 1px solid rgb(150, 150, 150);
+    width: 200px;
+}
+#login{
+    width:222px;
+    background-color: blue;
+    color: white;
+    border: 0px solid blue;
+}
+a{
+    padding: 10px;
+    color: blue;
+    text-decoration: none;
+}
+hr{
+    margin: 10px;
+    width: 222px;
+}
+.create-account{
+    background-color: rgb(16, 173, 24);
+    color: white;
+    border: 0px solid black;
+    padding: 10px;
+    border-radius: 5px;
+    font-size: 15px;
+    margin: 10px;
+}
